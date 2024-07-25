@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+#content{
+    font-size: 7rem;
+    font-family: monospace;
+}
+button{
+    font-size: 3rem;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#incrBtn{
+    background-color: hsl(120, 96%, 40%);
+}
+#incrBtn:hover{
+    background-color: hsl(120, 96%, 50%);
+}
+#decrBtn{
+    background-color: hsl(60, 94%, 65%);
+}
+#decrBtn:hover{
+    background-color: hsl(60, 83%, 64%);
+}
+#resetBtn{
+    background-color: hsl(199, 76%, 49%);
+}
+#resetBtn:hover{
+    background-color: hsl(199, 76%, 60%);
+}
